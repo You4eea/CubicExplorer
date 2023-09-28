@@ -1,0 +1,213 @@
+[Skin]
+Name=File 8
+ColorBtnFace=clBtnFace
+OfficeStatusBar=0
+OfficeIcons=1
+TitleBarBorderSize=4
+
+[Dock]
+Normal.Body=0, clWhite
+Normal.Borders=0
+
+[DockablePanel]
+Normal.Body=0, clWhite
+Normal.Borders=0
+
+[DockablePanelTitleBar]
+Normal.Body=0, clWhite
+Normal.Borders=0, $00F7F8F9, $00F7F8F9
+
+[Gutter]
+Normal.Body=0, $00F7F6F5
+Normal.Borders=0
+
+[MenuBar]
+Normal.Body=0, clWhite
+Normal.Borders=2, clBtnFace
+
+[OpenToolbarItem]
+Normal.Body=0, $00F7F6F5
+Normal.Borders=0, $00E4E3E2, $00E4E3E2
+Normal.TextColor=$009A572B
+
+[Panel]
+Normal.Body=0, clNone, clWhite
+Normal.Borders=0, clWhite, clWhite, clWhite, clWhite
+
+[Popup]
+Normal.Body=0, $00F7F6F5
+Normal.Borders=0
+Normal.TextColor=$002626FF
+
+[Separator]
+Normal.Body=0, $00E1E1E1
+Normal.Borders=0
+
+[Splitter]
+Normal.Body=0, $00E3E2E1
+Normal.Borders=0
+
+[StatusBar]
+Normal.Body=0, clWhite
+Normal.Borders=0
+
+[StatusBarGrip]
+Normal.Body=0, clWhite, clWhite
+Normal.Borders=0
+
+[TabBackground]
+Normal.Body=0, $00FEFEFE
+Normal.Borders=0, $00E5E5E5
+
+[TabToolbar]
+Normal.Body=0, clWhite
+Normal.Borders=0, $00E3E2E1
+
+[Toolbar]
+Normal.Body=0, clWhite
+Normal.Borders=0, clWhite, clWhite
+
+[ToolbarGrip]
+Normal.Body=0, clWhite, clWhite
+Normal.Borders=0
+
+[WindowTitleBar]
+Normal.Body=0, clWhite
+Normal.Borders=0
+
+[MenuBarItem]
+Normal.Body=0
+Normal.Borders=0, clWhite, clWhite, clWhite, $00E3E2E1
+HotTrack.Body=0
+HotTrack.Borders=0, $00E3E2E1, $00E3E2E1
+HotTrack.TextColor=$009A572B
+Pushed.Body=0
+Pushed.Borders=0
+Pushed.TextColor=$009A572B
+Checked.Body=0, $00F7F6F5
+Checked.Borders=0
+Checked.TextColor=$009A572B
+
+[MenuItem]
+HotTrack.Body=0, $00FBF3E5
+HotTrack.Borders=0, $00E7C070, $00E7C070
+Checked.Body=0, $00FFE8D1
+Checked.Borders=0, $00E7C070
+
+[ToolbarItem]
+Normal.Body=0
+Normal.Borders=0, clWhite
+HotTrack.Body=0, $00FBF3E5
+HotTrack.Borders=0, $00E7BE70, $00E7C070
+Pushed.Body=0, $00FFE8D1
+Pushed.Borders=0, $00E8A766, clBtnShadow
+Checked.Body=0, $00FFE8D1
+Checked.Borders=0, $00E7C070, $00E7C070
+CheckedAndHotTrack.Body=0, $00FFE8D1
+CheckedAndHotTrack.Borders=0, clHighlight, clHighlight
+
+[Button]
+Normal.Body=0
+Normal.Borders=0, $00E5E5E5, $00E5E5E5
+Disabled.Body=0, clBtnFace
+Disabled.Borders=0, clBtnShadow, clBtnShadow
+HotTrack.Body=0, $00FBF3E5
+HotTrack.Borders=0, $00E7C070, $00E7C070
+Pushed.Body=0, $00FFE8D1
+Pushed.Borders=0, $00E8A766, $00E8A766
+Checked.Body=0, $00FFE8D1
+Checked.Borders=0, clHighlight, clHighlight
+CheckedAndHotTrack.Body=0, $00C3AEA7
+CheckedAndHotTrack.Borders=0, clHighlight, clHighlight
+
+[CheckBox]
+Normal.Body=0
+Normal.Borders=0, clBlack, clBlack
+Disabled.Body=0
+Disabled.Borders=0, clBtnShadow, clBtnShadow
+HotTrack.Body=0, $00C3AEA7
+HotTrack.Borders=0, clHighlight, clHighlight
+Pushed.Body=0, clBtnFace
+Pushed.Borders=0, clBtnShadow, clBtnShadow
+Checked.Body=0, $00D8D4D4
+Checked.Borders=0, clHighlight, clHighlight
+CheckedAndHotTrack.Body=0, $00C3AEA7
+CheckedAndHotTrack.Borders=0, clHighlight, clHighlight
+
+[EditButton]
+Normal.Body=0, $00EBEBEB
+Normal.Borders=0, clWindow, clWindow
+HotTrack.Body=0, $00C3AEA7
+HotTrack.Borders=0, clHighlight, clHighlight
+Pushed.Body=0, $00C3AEA7
+Pushed.Borders=0, clHighlight, clHighlight
+Pushed.TextColor=clHighlightText
+Checked.Body=0, $00D8D4D4
+Checked.Borders=0, clHighlight, clHighlight
+CheckedAndHotTrack.Body=0, $00C3AEA7
+CheckedAndHotTrack.Borders=0, clHighlight, clHighlight
+
+[EditFrame]
+Normal.Body=0
+Normal.Borders=1, clNone, clNone, clBtnFace, clBtnFace
+Disabled.Body=0
+Disabled.Borders=1, clNone, clNone, clBtnShadow, clBtnShadow
+HotTrack.Body=0
+HotTrack.Borders=1, clNone, clNone, clHighlight, clHighlight
+
+[Header]
+Normal.Body=0
+Normal.Borders=0, clNone, clBtnShadow
+HotTrack.Body=0, $00C3AEA7
+HotTrack.Borders=0, clBtnFace, clBtnShadow
+
+[ListItem]
+HotTrack.Body=0, $00C3AEA7
+HotTrack.Borders=0, clHighlight, clHighlight
+Pushed.Body=0, clBtnFace
+Pushed.Borders=0, clBtnShadow, clBtnShadow
+Checked.Body=0, $00D8D4D4
+Checked.Borders=0, clHighlight, clHighlight
+CheckedAndHotTrack.Body=0, $00C3AEA7
+CheckedAndHotTrack.Borders=0, clHighlight, clHighlight
+
+[ProgressBar]
+Normal.Body=0, $00D8D4D4, clWhite
+Normal.Borders=0, clHighlight, clHighlight
+HotTrack.Body=0, $00C3AEA7
+HotTrack.Borders=0, clHighlight, clHighlight
+
+[RadioButton]
+Normal.Body=0
+Normal.Borders=0, clBtnShadow, clBtnShadow
+Disabled.Body=0
+Disabled.Borders=0, clBtnShadow, clBtnShadow
+HotTrack.Body=0, $00C3AEA7
+HotTrack.Borders=0, clHighlight, clHighlight
+Pushed.Body=0, clBtnFace
+Pushed.Borders=0, clBtnShadow, clBtnShadow
+Checked.Body=0, $00D8D4D4
+Checked.Borders=0, clHighlight, clHighlight
+CheckedAndHotTrack.Body=0, $00C3AEA7
+CheckedAndHotTrack.Borders=0, clHighlight, clHighlight
+
+[Tab]
+HotTrack.Body=0, $00F7F6F5
+HotTrack.Borders=0, clBtnShadow, clBtnShadow
+Checked.Body=0, clWhite
+Checked.Borders=0, clBtnShadow, clBtnShadow
+CheckedAndHotTrack.Body=0, $00C3AEA7
+CheckedAndHotTrack.Borders=0, clBtnShadow, clBtnShadow
+
+[TrackBar]
+Normal.Body=0, $00D8D4D4, clWhite
+Normal.Borders=0, clHighlight, clHighlight
+HotTrack.Body=0, $00C3AEA7
+HotTrack.Borders=0, clHighlight, clHighlight
+
+[TrackBarButton]
+Normal.Body=0, $00D8D4D4
+Normal.Borders=0, clHighlight, clHighlight
+Pushed.Body=0, $00C3AEA7, clWhite
+Pushed.Borders=0, clHighlight, clHighlight
+

@@ -1,0 +1,369 @@
+date/time         : 2016-02-11, 17:25:54, 544ms
+operating system  : Windows 7 Service Pack 1 build 7601
+system language   : English
+program up time   : 1 day 5 hours
+processors        : 2x Intel(R) Core(TM)2 CPU 6700 @ 2.66GHz
+physical memory   : 5911/8126 MB (free/total)
+display mode      : 1366x768, 32 bit
+process id        : $dc4
+allocated memory  : 57.86 MB
+executable        : CubicExplorer.exe
+exec. date/time   : 2012-11-24 02:37
+version           : 0.96.0.1582
+madExcept version : 3.0m
+callstack crc     : $3ee3aeef, $cfae178d, $f13571d2
+exception number  : 1
+exception class   : EListError
+exception message : List index out of bounds (1).
+
+main thread ($f80):
+004265e9 +019 CubicExplorer.exe Classes                      TList.Get
+00651f7a +00a CubicExplorer.exe VirtualExplorerTree 8960  +1 TLeafNodeList.GetItems
+00650e5b +043 CubicExplorer.exe VirtualExplorerTree 8375  +5 TVETPersistent.ReStoreLeafPIDLs
+0065128e +012 CubicExplorer.exe VirtualExplorerTree 8501  +1 TVETPersistent.RestoreTreeBranch
+006511af +0e3 CubicExplorer.exe VirtualExplorerTree 8471 +15 TVETPersistent.RestoreTree
+0064d9c5 +075 CubicExplorer.exe VirtualExplorerTree 6618 +10 TCustomVirtualExplorerTree.RefreshTree
+00871a96 +002 CubicExplorer.exe CE_FolderTree        440  +0 TCEFolderTree.Refresh
+0089365f +127 CubicExplorer.exe Main                1558 +25 TMainForm.WMShellNotify
+0047cd8b +2bb CubicExplorer.exe Controls                     TControl.WndProc
+00480add +499 CubicExplorer.exe Controls                     TWinControl.WndProc
+00468001 +4c1 CubicExplorer.exe Forms                        TCustomForm.WndProc
+004ddf1d +085 CubicExplorer.exe TntControls          666 +19 TWinControlTrap.WindowProc
+00480268 +02c CubicExplorer.exe Controls                     TWinControl.MainWndProc
+00432128 +014 CubicExplorer.exe Classes                      StdWndProc
+76da1b52 +016 USER32.dll                                     CallWindowProcW
+004ddb70 +048 CubicExplorer.exe TntControls          554 +12 TWinControlTrap.Win32Proc
+00432128 +014 CubicExplorer.exe Classes                      StdWndProc
+76dacc6b +00a USER32.dll                                     DispatchMessageW
+0046f8fc +0f4 CubicExplorer.exe Forms                        TApplication.ProcessMessage
+0046f93e +00a CubicExplorer.exe Forms                        TApplication.HandleMessage
+0046fb5e +096 CubicExplorer.exe Forms                        TApplication.Run
+00935bf1 +279 CubicExplorer.exe CubicExplorer        263 +99 initialization
+765cee1a +010 kernel32.dll                                   BaseThreadInitThunk
+
+thread $191c:
+77c569f2 +0a ntdll.dll     NtWaitForMultipleObjects
+765cee1a +10 kernel32.dll  BaseThreadInitThunk
+
+thread $988:
+77c569f2 +0a ntdll.dll       NtWaitForMultipleObjects
+75eb6a88 +00 KERNELBASE.dll  WaitForMultipleObjectsEx
+765cbe29 +89 kernel32.dll    WaitForMultipleObjectsEx
+765cbe97 +13 kernel32.dll    WaitForMultipleObjects
+765cee1a +10 kernel32.dll    BaseThreadInitThunk
+
+thread $1c30:
+77c56a12 +0a ntdll.dll                                       NtWaitForSingleObject
+75eb1796 +66 KERNELBASE.dll                                  WaitForSingleObjectEx
+765cc3ce +3e kernel32.dll                                    WaitForSingleObjectEx
+765cc37d +0d kernel32.dll                                    WaitForSingleObject
+005a5d75 +4d CubicExplorer.exe VirtualShellNotifier 2272  +9 TVirtualChangeDispatchThread.Execute
+005145da +36 CubicExplorer.exe MPThreadManager       676 +22 TCommonThread.ExecuteStub
+004d1009 +0d CubicExplorer.exe madExcept                     CallThreadProcSafe
+004d1073 +37 CubicExplorer.exe madExcept                     ThreadExceptFrame
+765cee1a +10 kernel32.dll                                    BaseThreadInitThunk
+>> created by main thread ($f80) at:
+0051439d +6d CubicExplorer.exe MPThreadManager       615 +12 TCommonThread.Create
+
+thread $1b88:
+76da18d4 +3b USER32.dll                                      GetMessageA
+005a5147 +bb CubicExplorer.exe VirtualShellNotifier 1930 +15 TVirtualShellChangeThread.Execute
+005145da +36 CubicExplorer.exe MPThreadManager       676 +22 TCommonThread.ExecuteStub
+004d1009 +0d CubicExplorer.exe madExcept                     CallThreadProcSafe
+004d1073 +37 CubicExplorer.exe madExcept                     ThreadExceptFrame
+765cee1a +10 kernel32.dll                                    BaseThreadInitThunk
+>> created by main thread ($f80) at:
+0051439d +6d CubicExplorer.exe MPThreadManager       615 +12 TCommonThread.Create
+
+thread $1934 (TWorkerThread):
+77c56a12 +0a ntdll.dll                              NtWaitForSingleObject
+75eb1796 +66 KERNELBASE.dll                         WaitForSingleObjectEx
+765cc3ce +3e kernel32.dll                           WaitForSingleObjectEx
+765cc37d +0d kernel32.dll                           WaitForSingleObject
+005741a5 +19 CubicExplorer.exe VirtualTrees 6049 +3 TWorkerThread.Execute
+004d1127 +2b CubicExplorer.exe madExcept            HookedTThreadExecute
+00430444 +34 CubicExplorer.exe Classes              ThreadProc
+00405570 +28 CubicExplorer.exe System       1300 +0 ThreadWrapper
+004d1009 +0d CubicExplorer.exe madExcept            CallThreadProcSafe
+004d1073 +37 CubicExplorer.exe madExcept            ThreadExceptFrame
+765cee1a +10 kernel32.dll                           BaseThreadInitThunk
+>> created by main thread ($f80) at:
+005740ea +16 CubicExplorer.exe VirtualTrees 6012 +1 TWorkerThread.Create
+
+TaskPool_Mgr ($1f24):
+77c56a12 +00a ntdll.dll                                NtWaitForSingleObject
+75eb1796 +066 KERNELBASE.dll                           WaitForSingleObjectEx
+765cc3ce +03e kernel32.dll                             WaitForSingleObjectEx
+765cc37d +00d kernel32.dll                             WaitForSingleObject
+00680656 +00e CubicExplorer.exe ccThreads      208  +4 WaitForSignal
+0072dc2e +32e CubicExplorer.exe ccThreadUtils  655 +93 TCCTaskPoolMgrThread.Execute
+004d1127 +02b CubicExplorer.exe madExcept              HookedTThreadExecute
+00430444 +034 CubicExplorer.exe Classes                ThreadProc
+00405570 +028 CubicExplorer.exe System        1300  +0 ThreadWrapper
+004d1009 +00d CubicExplorer.exe madExcept              CallThreadProcSafe
+004d1073 +037 CubicExplorer.exe madExcept              ThreadExceptFrame
+765cee1a +010 kernel32.dll                             BaseThreadInitThunk
+>> created by main thread ($f80) at:
+0068068a +016 CubicExplorer.exe ccThreads      233  +1 TCCBaseThread.Create
+
+thread $1c64:
+77c569f2 +0a ntdll.dll                                       NtWaitForMultipleObjects
+75eb6a88 +00 KERNELBASE.dll                                  WaitForMultipleObjectsEx
+765cbe29 +89 kernel32.dll                                    WaitForMultipleObjectsEx
+765cbe97 +13 kernel32.dll                                    WaitForMultipleObjects
+005a4ae9 +bd CubicExplorer.exe VirtualShellNotifier 1711 +19 TVirtualKernelChangeThread.Execute
+005145da +36 CubicExplorer.exe MPThreadManager       676 +22 TCommonThread.ExecuteStub
+004d1009 +0d CubicExplorer.exe madExcept                     CallThreadProcSafe
+004d1073 +37 CubicExplorer.exe madExcept                     ThreadExceptFrame
+765cee1a +10 kernel32.dll                                    BaseThreadInitThunk
+>> created by main thread ($f80) at:
+0051439d +6d CubicExplorer.exe MPThreadManager       615 +12 TCommonThread.Create
+
+thread $1ed8:
+77c56a12 +0a ntdll.dll                                 NtWaitForSingleObject
+75eb1796 +66 KERNELBASE.dll                            WaitForSingleObjectEx
+765cc3ce +3e kernel32.dll                              WaitForSingleObjectEx
+765cc37d +0d kernel32.dll                              WaitForSingleObject
+00514933 +2f CubicExplorer.exe MPThreadManager 898  +4 TCommonEventThread.Execute
+005145da +36 CubicExplorer.exe MPThreadManager 676 +22 TCommonThread.ExecuteStub
+004d1009 +0d CubicExplorer.exe madExcept               CallThreadProcSafe
+004d1073 +37 CubicExplorer.exe madExcept               ThreadExceptFrame
+765cee1a +10 kernel32.dll                              BaseThreadInitThunk
+>> created by main thread ($f80) at:
+0051439d +6d CubicExplorer.exe MPThreadManager 615 +12 TCommonThread.Create
+
+thread $1b48:
+77c56a22 +0a ntdll.dll     NtWaitForWorkViaWorkerFactory
+765cee1a +10 kernel32.dll  BaseThreadInitThunk
+
+thread $1f1c:
+77c56a12 +0a ntdll.dll                   NtWaitForSingleObject
+75eb1796 +66 KERNELBASE.dll              WaitForSingleObjectEx
+765cc3ce +3e kernel32.dll                WaitForSingleObjectEx
+765cc37d +0d kernel32.dll                WaitForSingleObject
+004d1009 +0d CubicExplorer.exe madExcept CallThreadProcSafe
+004d1073 +37 CubicExplorer.exe madExcept ThreadExceptFrame
+765cee1a +10 kernel32.dll                BaseThreadInitThunk
+>> created by main thread ($f80) at:
+77ac450f +00 SHLWAPI.dll
+
+thread $1b44:
+77c56a12 +0a ntdll.dll                   NtWaitForSingleObject
+75eb1796 +66 KERNELBASE.dll              WaitForSingleObjectEx
+765cc3ce +3e kernel32.dll                WaitForSingleObjectEx
+765cc37d +0d kernel32.dll                WaitForSingleObject
+004d1009 +0d CubicExplorer.exe madExcept CallThreadProcSafe
+004d1073 +37 CubicExplorer.exe madExcept ThreadExceptFrame
+765cee1a +10 kernel32.dll                BaseThreadInitThunk
+>> created by main thread ($f80) at:
+77ac450f +00 SHLWAPI.dll
+
+thread $4bc:
+77c56a12 +0a ntdll.dll       NtWaitForSingleObject
+75eb1796 +66 KERNELBASE.dll  WaitForSingleObjectEx
+765cc3ce +3e kernel32.dll    WaitForSingleObjectEx
+765cc37d +0d kernel32.dll    WaitForSingleObject
+765cee1a +10 kernel32.dll    BaseThreadInitThunk
+
+thread $650:
+77c569f2 +0a ntdll.dll       NtWaitForMultipleObjects
+75eb6a88 +00 KERNELBASE.dll  WaitForMultipleObjectsEx
+765cbe29 +89 kernel32.dll    WaitForMultipleObjectsEx
+765cee1a +10 kernel32.dll    BaseThreadInitThunk
+
+thread $1258:
+77c56a22 +0a ntdll.dll     NtWaitForWorkViaWorkerFactory
+765cee1a +10 kernel32.dll  BaseThreadInitThunk
+
+thread $1f44:
+77c56a22 +0a ntdll.dll     NtWaitForWorkViaWorkerFactory
+765cee1a +10 kernel32.dll  BaseThreadInitThunk
+
+thread $120c:
+77c557c2 +0a ntdll.dll                   NtDelayExecution
+75eb1870 +4f KERNELBASE.dll              SleepEx
+75eb1813 +0a KERNELBASE.dll              Sleep
+004d1009 +0d CubicExplorer.exe madExcept CallThreadProcSafe
+004d1073 +37 CubicExplorer.exe madExcept ThreadExceptFrame
+765cee1a +10 kernel32.dll                BaseThreadInitThunk
+>> created by main thread ($f80) at:
+76a5da8e +00 ole32.dll
+
+thread $e24:
+77c56a22 +0a ntdll.dll     NtWaitForWorkViaWorkerFactory
+765cee1a +10 kernel32.dll  BaseThreadInitThunk
+
+disassembling:
+00651f70      public VirtualExplorerTree.TLeafNodeList.GetItems:  ; function entry point
+00651f70 8959   push    ebx
+00651f71        push    esi
+00651f72        mov     esi, edx
+00651f74        mov     ebx, eax
+00651f76 8960   mov     edx, esi
+00651f78        mov     eax, ebx
+00651f7a      > call    -$22b9af ($4265d0)     ; Classes.TList.Get
+00651f7a
+00651f7f 8961   pop     esi
+00651f80        pop     ebx
+00651f81        ret
+
+date/time         : 2016-03-27, 17:29:17, 358ms
+operating system  : Windows 7 Service Pack 1 build 7601
+system language   : English
+program up time   : 7 hours 39 minutes
+processors        : 2x Intel(R) Core(TM)2 CPU 6700 @ 2.66GHz
+physical memory   : 6036/8126 MB (free/total)
+display mode      : 1920x1200, 32 bit
+process id        : $2ef0
+allocated memory  : 56.92 MB
+executable        : CubicExplorer.exe
+exec. date/time   : 2012-11-24 03:37
+version           : 0.96.0.1582
+madExcept version : 3.0m
+callstack crc     : $3ee3aeef, $0bc42d7c, $75190a1b
+exception number  : 1
+exception class   : EListError
+exception message : List index out of bounds (1).
+
+main thread ($29cc):
+004265e9 +019 CubicExplorer.exe Classes                      TList.Get
+00651f7a +00a CubicExplorer.exe VirtualExplorerTree 8960  +1 TLeafNodeList.GetItems
+00650e9d +085 CubicExplorer.exe VirtualExplorerTree 8381 +11 TVETPersistent.ReStoreLeafPIDLs
+0065128e +012 CubicExplorer.exe VirtualExplorerTree 8501  +1 TVETPersistent.RestoreTreeBranch
+006511af +0e3 CubicExplorer.exe VirtualExplorerTree 8471 +15 TVETPersistent.RestoreTree
+0064d9c5 +075 CubicExplorer.exe VirtualExplorerTree 6618 +10 TCustomVirtualExplorerTree.RefreshTree
+00871a96 +002 CubicExplorer.exe CE_FolderTree        440  +0 TCEFolderTree.Refresh
+0089365f +127 CubicExplorer.exe Main                1558 +25 TMainForm.WMShellNotify
+0047cd8b +2bb CubicExplorer.exe Controls                     TControl.WndProc
+00480add +499 CubicExplorer.exe Controls                     TWinControl.WndProc
+00468001 +4c1 CubicExplorer.exe Forms                        TCustomForm.WndProc
+004ddf1d +085 CubicExplorer.exe TntControls          666 +19 TWinControlTrap.WindowProc
+00480268 +02c CubicExplorer.exe Controls                     TWinControl.MainWndProc
+00432128 +014 CubicExplorer.exe Classes                      StdWndProc
+75841b52 +016 USER32.dll                                     CallWindowProcW
+004ddb70 +048 CubicExplorer.exe TntControls          554 +12 TWinControlTrap.Win32Proc
+00432128 +014 CubicExplorer.exe Classes                      StdWndProc
+7584cc6b +00a USER32.dll                                     DispatchMessageW
+0046f8fc +0f4 CubicExplorer.exe Forms                        TApplication.ProcessMessage
+0046f93e +00a CubicExplorer.exe Forms                        TApplication.HandleMessage
+0046fb5e +096 CubicExplorer.exe Forms                        TApplication.Run
+00935bf1 +279 CubicExplorer.exe CubicExplorer        263 +99 initialization
+76c8ee1a +010 kernel32.dll                                   BaseThreadInitThunk
+
+thread $24c8:
+770469f2 +0a ntdll.dll     NtWaitForMultipleObjects
+76c8ee1a +10 kernel32.dll  BaseThreadInitThunk
+
+thread $1950:
+770469f2 +0a ntdll.dll       NtWaitForMultipleObjects
+75186a88 +00 KERNELBASE.dll  WaitForMultipleObjectsEx
+76c8be29 +89 kernel32.dll    WaitForMultipleObjectsEx
+76c8be97 +13 kernel32.dll    WaitForMultipleObjects
+76c8ee1a +10 kernel32.dll    BaseThreadInitThunk
+
+thread $28e8:
+77046a12 +0a ntdll.dll                                       NtWaitForSingleObject
+75181796 +66 KERNELBASE.dll                                  WaitForSingleObjectEx
+76c8c3ce +3e kernel32.dll                                    WaitForSingleObjectEx
+76c8c37d +0d kernel32.dll                                    WaitForSingleObject
+005a5d75 +4d CubicExplorer.exe VirtualShellNotifier 2272  +9 TVirtualChangeDispatchThread.Execute
+005145da +36 CubicExplorer.exe MPThreadManager       676 +22 TCommonThread.ExecuteStub
+004d1009 +0d CubicExplorer.exe madExcept                     CallThreadProcSafe
+004d1073 +37 CubicExplorer.exe madExcept                     ThreadExceptFrame
+76c8ee1a +10 kernel32.dll                                    BaseThreadInitThunk
+>> created by main thread ($29cc) at:
+0051439d +6d CubicExplorer.exe MPThreadManager       615 +12 TCommonThread.Create
+
+thread $2d10:
+758418d4 +3b USER32.dll                                      GetMessageA
+005a5147 +bb CubicExplorer.exe VirtualShellNotifier 1930 +15 TVirtualShellChangeThread.Execute
+005145da +36 CubicExplorer.exe MPThreadManager       676 +22 TCommonThread.ExecuteStub
+004d1009 +0d CubicExplorer.exe madExcept                     CallThreadProcSafe
+004d1073 +37 CubicExplorer.exe madExcept                     ThreadExceptFrame
+76c8ee1a +10 kernel32.dll                                    BaseThreadInitThunk
+>> created by main thread ($29cc) at:
+0051439d +6d CubicExplorer.exe MPThreadManager       615 +12 TCommonThread.Create
+
+thread $26b8 (TWorkerThread):
+77046a12 +0a ntdll.dll                              NtWaitForSingleObject
+75181796 +66 KERNELBASE.dll                         WaitForSingleObjectEx
+76c8c3ce +3e kernel32.dll                           WaitForSingleObjectEx
+76c8c37d +0d kernel32.dll                           WaitForSingleObject
+005741a5 +19 CubicExplorer.exe VirtualTrees 6049 +3 TWorkerThread.Execute
+004d1127 +2b CubicExplorer.exe madExcept            HookedTThreadExecute
+00430444 +34 CubicExplorer.exe Classes              ThreadProc
+00405570 +28 CubicExplorer.exe System       1300 +0 ThreadWrapper
+004d1009 +0d CubicExplorer.exe madExcept            CallThreadProcSafe
+004d1073 +37 CubicExplorer.exe madExcept            ThreadExceptFrame
+76c8ee1a +10 kernel32.dll                           BaseThreadInitThunk
+>> created by main thread ($29cc) at:
+005740ea +16 CubicExplorer.exe VirtualTrees 6012 +1 TWorkerThread.Create
+
+TaskPool_Mgr ($2d18):
+77046a12 +00a ntdll.dll                                NtWaitForSingleObject
+75181796 +066 KERNELBASE.dll                           WaitForSingleObjectEx
+76c8c3ce +03e kernel32.dll                             WaitForSingleObjectEx
+76c8c37d +00d kernel32.dll                             WaitForSingleObject
+00680656 +00e CubicExplorer.exe ccThreads      208  +4 WaitForSignal
+0072dc2e +32e CubicExplorer.exe ccThreadUtils  655 +93 TCCTaskPoolMgrThread.Execute
+004d1127 +02b CubicExplorer.exe madExcept              HookedTThreadExecute
+00430444 +034 CubicExplorer.exe Classes                ThreadProc
+00405570 +028 CubicExplorer.exe System        1300  +0 ThreadWrapper
+004d1009 +00d CubicExplorer.exe madExcept              CallThreadProcSafe
+004d1073 +037 CubicExplorer.exe madExcept              ThreadExceptFrame
+76c8ee1a +010 kernel32.dll                             BaseThreadInitThunk
+>> created by main thread ($29cc) at:
+0068068a +016 CubicExplorer.exe ccThreads      233  +1 TCCBaseThread.Create
+
+thread $176c:
+770469f2 +0a ntdll.dll                                       NtWaitForMultipleObjects
+75186a88 +00 KERNELBASE.dll                                  WaitForMultipleObjectsEx
+76c8be29 +89 kernel32.dll                                    WaitForMultipleObjectsEx
+76c8be97 +13 kernel32.dll                                    WaitForMultipleObjects
+005a4ae9 +bd CubicExplorer.exe VirtualShellNotifier 1711 +19 TVirtualKernelChangeThread.Execute
+005145da +36 CubicExplorer.exe MPThreadManager       676 +22 TCommonThread.ExecuteStub
+004d1009 +0d CubicExplorer.exe madExcept                     CallThreadProcSafe
+004d1073 +37 CubicExplorer.exe madExcept                     ThreadExceptFrame
+76c8ee1a +10 kernel32.dll                                    BaseThreadInitThunk
+>> created by main thread ($29cc) at:
+0051439d +6d CubicExplorer.exe MPThreadManager       615 +12 TCommonThread.Create
+
+thread $2988:
+77046a12 +0a ntdll.dll                                 NtWaitForSingleObject
+75181796 +66 KERNELBASE.dll                            WaitForSingleObjectEx
+76c8c3ce +3e kernel32.dll                              WaitForSingleObjectEx
+76c8c37d +0d kernel32.dll                              WaitForSingleObject
+00514933 +2f CubicExplorer.exe MPThreadManager 898  +4 TCommonEventThread.Execute
+005145da +36 CubicExplorer.exe MPThreadManager 676 +22 TCommonThread.ExecuteStub
+004d1009 +0d CubicExplorer.exe madExcept               CallThreadProcSafe
+004d1073 +37 CubicExplorer.exe madExcept               ThreadExceptFrame
+76c8ee1a +10 kernel32.dll                              BaseThreadInitThunk
+>> created by main thread ($29cc) at:
+0051439d +6d CubicExplorer.exe MPThreadManager 615 +12 TCommonThread.Create
+
+thread $1804:
+77046a22 +0a ntdll.dll     NtWaitForWorkViaWorkerFactory
+76c8ee1a +10 kernel32.dll  BaseThreadInitThunk
+
+thread $26c4:
+77046a22 +0a ntdll.dll     NtWaitForWorkViaWorkerFactory
+76c8ee1a +10 kernel32.dll  BaseThreadInitThunk
+
+thread $16a4:
+77046a22 +0a ntdll.dll     NtWaitForWorkViaWorkerFactory
+76c8ee1a +10 kernel32.dll  BaseThreadInitThunk
+
+disassembling:
+00651f70      public VirtualExplorerTree.TLeafNodeList.GetItems:  ; function entry point
+00651f70 8959   push    ebx
+00651f71        push    esi
+00651f72        mov     esi, edx
+00651f74        mov     ebx, eax
+00651f76 8960   mov     edx, esi
+00651f78        mov     eax, ebx
+00651f7a      > call    -$22b9af ($4265d0)     ; Classes.TList.Get
+00651f7a
+00651f7f 8961   pop     esi
+00651f80        pop     ebx
+00651f81        ret
+
